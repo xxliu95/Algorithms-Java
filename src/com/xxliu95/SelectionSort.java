@@ -4,13 +4,12 @@ public class SelectionSort {
 
 	public static void main(String[] args) {
 		int[] luan = {7,2,8,5,9,10,2,3,1};
-		int[] luan2 = {6,7,9,3,0,1,-3,2,-25};
+		//int[] luan2 = {6,7,9,3,0,1,-3,2,-25};
 		printArray(luan);
 		//printArray(luan2);
 
 		sort(luan);
 		//sort(luan2);	
-
 	}
 	
 	private static void sort(int[] array) {
